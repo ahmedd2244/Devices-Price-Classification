@@ -1,0 +1,5 @@
+com\example\devices\Device.class
+com\example\devices\DeviceRepository.class
+com\example\devices\DeviceController.class
+com\example\devices\ResourceNotFoundException.class
+com\example\devices\DevicesApplication.class
