@@ -88,3 +88,19 @@ Response:
 {
   "price_range": 1
 }
+
+Machine Learning Details
+The machine learning component of the project is implemented in a Jupyter Notebook and a Flask API. Below are the key steps:
+
+1. Load and Visualize the Dataset
+Load the dataset using pandas.
+Visualize data distributions and relationships using seaborn and matplotlib.
+2. Prepare the Dataset
+Handle missing values.
+Perform feature engineering.
+3. Train the Model
+Train a RandomForestClassifier.
+Evaluate the model using confusion matrix and classification report.
+4. Optimize the Model
+Perform hyperparameter tuning using GridSearchCV.
+Save the trained model and scaler using joblib.
